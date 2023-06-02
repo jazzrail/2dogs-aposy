@@ -115,10 +115,19 @@ h2 {
 
 /* ------Images-------- */
 
-.mono5 {
-  background-position: right;
+.panel.mono1 {
+  background-image: url('img/Mono1@2x.jpg');
 }
-
+/* .mono5 {
+  background-image: url('img/Mono5@2x.jpg');
+  background-position: right;
+} */
+.color1 {
+  background-image: url('img/color1@3x.jpg');
+}
+.color8 {
+  background-image: url('img/color8@3x.jpg');
+}
 .panel.color13 {
   background-image: url('img/color13-crop@2x.jpg');
   background-position: 0px -30px;
@@ -132,8 +141,8 @@ h2 {
 .panel.color43 {
   background-image: url('img/color43@2x.jpg');
 }
-.panel.color45 {
-  background-image: url('img/color45@2x.jpg');
+.panel.color46 {
+  background-image: url('img/color46.jpg');
 }
 .panel.color50 {
   background-image: url('img/color50@0.5x.jpg');
@@ -144,17 +153,11 @@ h2 {
 .panel.color77 {
   background-image: url('img/color77@2x.jpg');
 }
-.panel.color90 {
-  background-image: url('img/color90.jpg');
-}
-.panel.color95 {
-  background-image: url('img/color95@2x.jpg');
-}
 .panel.color97 {
   background-image: url('img/color97-crop@2x.jpg');
 }
-.panel.color102 {
-  background-image: url('img/color102@2x.jpg');
+.panel.color105 {
+  background-image: url('img/color105@2x.jpg');
 }
 .panel.color113 {
   background-image: url('img/color113@2x.jpg');
@@ -162,20 +165,29 @@ h2 {
 .panel.color131 {
   background-image: url('img/color131@2x.jpg');
 }
-.panel.mono8 {
-  background-image: url('img/mono8@2x.jpg');
+.panel.color137 {
+  background-image: url('img/color137-crop.jpg');
 }
-.panel.mono9 {
-  background-image: url('img/mono9@2x.jpg');
+.panel.color139 {
+  background-image: url('img/color139-crop.jpg');
+}
+.panel.color151 {
+  background-image: url('img/color151.jpg');
+}
+.panel.mono5 {
+  background-image: url('img/Mono5@2x.jpg');
 }
 .panel.mono12 {
   background-image: url('img/mono12@3x.jpg');
 }
-.panel.mono17 {
-  background-image: url('img/mono17-crop.jpg');
+.panel.mono24 {
+  background-image: url('img/mono24.jpg');
 }
 .panel.mono31 {
-  background-image: url('img/mono31@2x.jpg');
+  background-image: url('img/mono31-crop.jpg');
+}
+.panel.mono33 {
+  background-image: url('img/mono33.jpg');
   margin-bottom: 5rem;
 }
 
