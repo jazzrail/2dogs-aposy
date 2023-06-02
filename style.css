@@ -52,13 +52,17 @@ h2 {
   margin-bottom: 0.8em;
 }
 
+h2 {
+  line-height: 1.2;
+}
+
 .container {
   width: 90vw;
-  max-width: 820px;
+  /* max-width: 820px; */
+  max-width: 850px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  /* margin-bottom: 2rem; */
 }
 
 .panel {
@@ -72,16 +76,6 @@ h2 {
   margin-bottom: 1.5em;
   position: relative;
   transition: 0.7s ease-in;
-}
-
-.panel.mono5 {
-  background-position: right;
-  border: 1px solid crimson;
-}
-
-.panel.color13 {
-  height: 3.5rem;
-  background-size: cover;
 }
 
 .panel h3 {
@@ -117,4 +111,88 @@ h2 {
     transition: opacity 0.3s ease-in 0.4s;
     left: 30px;
   }
+}
+
+/* ------Images-------- */
+
+.mono5 {
+  background-position: right;
+}
+
+.panel.color13 {
+  background-image: url('img/color13-crop@2x.jpg');
+  background-position: 0px -30px;
+}
+.panel.color16 {
+  background-image: url('img/color16@3x.jpg');
+}
+.panel.color29 {
+  background-image: url('img/color29@3x.jpg');
+}
+.panel.color43 {
+  background-image: url('img/color43@2x.jpg');
+}
+.panel.color45 {
+  background-image: url('img/color45@2x.jpg');
+}
+.panel.color50 {
+  background-image: url('img/color50@0.5x.jpg');
+}
+.panel.color59 {
+  background-image: url('img/color59-crop@2x.jpg');
+}
+.panel.color77 {
+  background-image: url('img/color77@2x.jpg');
+}
+.panel.color90 {
+  background-image: url('img/color90.jpg');
+}
+.panel.color95 {
+  background-image: url('img/color95@2x.jpg');
+}
+.panel.color97 {
+  background-image: url('img/color97-crop@2x.jpg');
+}
+.panel.color102 {
+  background-image: url('img/color102@2x.jpg');
+}
+.panel.color113 {
+  background-image: url('img/color113@2x.jpg');
+}
+.panel.color131 {
+  background-image: url('img/color131@2x.jpg');
+}
+.panel.mono8 {
+  background-image: url('img/mono8@2x.jpg');
+}
+.panel.mono9 {
+  background-image: url('img/mono9@2x.jpg');
+}
+.panel.mono12 {
+  background-image: url('img/mono12@3x.jpg');
+}
+.panel.mono17 {
+  background-image: url('img/mono17-crop.jpg');
+}
+.panel.mono31 {
+  background-image: url('img/mono31@2x.jpg');
+  margin-bottom: 5rem;
+}
+
+footer {
+  margin-bottom: 1.5rem;
+}
+
+footer a {
+  font-family: 'Lobster', 'cursive';
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in;
+}
+
+footer a:hover {
+  transform: scale(1.5);
 }
