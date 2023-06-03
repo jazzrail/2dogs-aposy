@@ -193,6 +193,11 @@ h2 {
 
 footer {
   margin-bottom: 1.5rem;
+  transition: all 0.5s;
+}
+
+footer:hover {
+  margin-bottom: 3rem;
 }
 
 footer a {
@@ -202,9 +207,10 @@ footer a {
   margin-left: 3rem;
   text-decoration: none;
   cursor: pointer;
-  transition: transform 0.2s ease-in;
+  transition: all 1s ease-in;
 }
 
-footer a:hover {
-  transform: scale(1.5);
+.font-size:hover {
+  font-size: 2rem;
+  color: lightseagreen;
 }
